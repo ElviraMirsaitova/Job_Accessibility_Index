@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>regions_2022</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>GeoJSON</type>
+                <path>regions_2022_06_01_2025.geojson</path>
+            </datasource>
+            <layername>regions_2022</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>id</var>
+                <var>name</var>
+                <var>
+                    2020_in_worker_na rabotu_in_subject_tab_6.25
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    2020_out_worker_from_subject_tab_6.25
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    procent_worker_in_another_subject
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    procent_worker_from_another_subject
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    trud_migr_otnositelnaya_beetween_subjects
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    CATEGORIES
+                    <meta_data>
+                        <categories>
+                            <category1>&lt; -11.700 (4) </category1>
+                            <category2>[-11.700, -4.310) (21) </category2>
+                            <category3>[-4.310, 0) (35) </category3>
+                            <category4>[0, 5.259] (20) </category4>
+                            <category5>(5.259, 13.214] (4) </category5>
+                            <category6>(13.214, 40.904] (4) </category6>
+                            <category7>&gt; 40.904 (0) </category7>
+                            <category8>undefined (1) </category8>
+                        </categories>
+                        <classification_type>Custom Breaks (trud_migr_otnositelnaya_beetween_subjects)</classification_type>
+                        <number_of_categories>8</number_of_categories>
+                        <original_variable>trud_migr_otnositelnaya_beetween_subjects</original_variable>
+                    </meta_data>
+                </var>
+            </variable_order>
+            <custom_classifications>
+                <classification_definition>
+                    <title>Custom Breaks (trud_migr_otnositelnaya_beetween_subjects)</title>
+                    <type>custom</type>
+                    <num_cats>7</num_cats>
+                    <automatic_labels>true</automatic_labels>
+                    <assoc_db_fld_name>trud_migr_otnositelnaya_beetween_subjects</assoc_db_fld_name>
+                    <uniform_dist_min>0</uniform_dist_min>
+                    <uniform_dist_max>1</uniform_dist_max>
+                    <breaks>
+                        <break>-11.69999638</break>
+                        <break>-4.3095430459999999</break>
+                        <break>0</break>
+                        <break>5.2588663740000001</break>
+                        <break>13.21386493</break>
+                        <break>40.903619130000003</break>
+                    </breaks>
+                    <names>
+                        <name>&lt; -11.700</name>
+                        <name>[-11.700, -4.310)</name>
+                        <name>[-4.310, 0)</name>
+                        <name>[0, 5.259]</name>
+                        <name>(5.259, 13.214]</name>
+                        <name>(13.214, 40.904]</name>
+                        <name>&gt; 40.904</name>
+                    </names>
+                    <colors/>
+                    <color_scheme>sequential</color_scheme>
+                </classification_definition>
+                <classification_definition>
+                    <title>Custom Breaks (trud_migr_otnositelnaya_beetween_subjects) 1</title>
+                    <type>custom</type>
+                    <num_cats>8</num_cats>
+                    <automatic_labels>true</automatic_labels>
+                    <assoc_db_fld_name>trud_migr_otnositelnaya_beetween_subjects</assoc_db_fld_name>
+                    <uniform_dist_min>-11.69999638</uniform_dist_min>
+                    <uniform_dist_max>68.593373330000006</uniform_dist_max>
+                    <breaks>
+                        <break>-11.69999638</break>
+                        <break>-4.3095430459999999</break>
+                        <break>0</break>
+                        <break>5.2588663740000001</break>
+                        <break>13.21386493</break>
+                        <break>40.903619130000003</break>
+                        <break>68.593373330000006</break>
+                    </breaks>
+                    <names>
+                        <name>&lt; -11.700</name>
+                        <name>[-11.700, -4.310)</name>
+                        <name>[-4.310, 0)</name>
+                        <name>[0, 5.259)</name>
+                        <name>[5.259, 13.214]</name>
+                        <name>(13.214, 40.904]</name>
+                        <name>(40.904, 68.593]</name>
+                        <name>&gt; 68.593</name>
+                    </names>
+                    <color_scheme>sequential</color_scheme>
+                </classification_definition>
+            </custom_classifications>
+            <weights_entries/>
+            <default_vars>
+                <default_var>
+                    <name>trud_migr_otnositelnaya_beetween_subjects</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
